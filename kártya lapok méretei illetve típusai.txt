@@ -1,0 +1,22 @@
+﻿kártya lapok leosztása:
+
+a= piros szív    (kör)     A,2,3,4,5,6,7,8,9,10,J,Q,K   13db a1-a13  bátorság jelképe,harcos katona
+b= piros rombusz (káró)    A,2,3,4,5,6,7,8,9,10,J,Q,K   13db b1-b13  dárda 4szögletes vasvége,ezt zúdították az ellenségre
+c= fekete lóhere (treff)   A,2,3,4,5,6,7,8,9,10,J,Q,K   13db c1-c13  takarmányra utal
+d= fekete levél  (pikk)    A,2,3,4,5,6,7,8,9,10,J,Q,K   13db d1-d13  régi lándzsa asószerű vége
+
+összesen: 52db
+lapok mérete: 4*13
+zene alatta, némítása X.
+
+<p>Pasziánsz kártyajátékoknak nevezzük az egyszemélyes kártyajátékokat. Rengeteg fajtájuk van (és a fajtákon belül is sok különböző variáció), de a játékmenet mindegyiknél az, hogy az összekevert kártyalapokat valamilyen rend szerint az asztalra helyezzük, majd a szabályok betartásával megpróbáljuk egy másik rendbe – ez a gyakorlatban általában csökkenő vagy növekvő sorrendet jelent – áthelyezni őket. A szabályok és az alapelrendezés határozzák meg a játék nehézségét. Vannak pasziánszjátékok ahol, ha elég ügyesek vagyunk minden leosztás kirakható és vannak olyanok is, ahol bármennyire is jól játszunk, az adott leosztást lehetetlen megfelelően végigvinni.
+A játékokat francia kártyával kell játszani: 1, 2 esetleg 3 vagy 4 pakli felhasználásával. Egy pakli 52 lapból áll, ezek 4 szín között oszlanak meg (♠ pikk, ♣ treff, ♥ kör, ♦ káró). Minden színhez 13 lap tartozik és általában ebben az értéksorrendben követik egymást:
+A, 2, 3, 4, 5, 6, 7, 8, 9, 10, J, Q, K
+Egyes játékváltozatokban az ász a sor végén van.
+
+Pasziánsz fogalmak
+A pasziánszjátékokban a kezdőálláshoz az összekevert csomagból leosztjuk a lapokat az adott játékra jellemző alakzatban. Ezeket a leosztott lapokat nevezzük tablónak (más néven asztal vagy tábla). A megmaradt lapokat – ha olyan a játék, hogy maradnak lapok – talonnak nevezzük. Innen tesszük a lapokat az adott szabályok szerint tablóra, illetve egyes játékokban (például a Klondikében) először a segédtalonra, majd onnan a tablóra. Alapnak nevezzük (más néven halomnak) azt a területet, illetve azokat a lapokat, ahova az átrendezés során a többi lapot gyűjtjük össze. A pasziánszok célja, hogy az összes lapot elhelyezzük az alapokban.</p>
+
+
+görgetősáv:
+<div style="width : 300px;height : 300px;overflow : auto;">  

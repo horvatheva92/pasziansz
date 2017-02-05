@@ -1,0 +1,117 @@
+﻿<html>
+<head>
+   <title> Pasziánsz </title>
+   <meta charset= "utf-8">
+   <link rel="stylesheet" href="szakdolgozat.css">
+   <script src="jquery-3.1.1.min.js"></script>
+</head>
+<body background="volkswagengtiroadster.jpg">
+	<div id="fejlec"> 
+		<ul id="menu">
+			<li><a href="#">Új játék</a></li>
+			<li><a href="#" id="hatter">Háttér</a></li>
+			<li><a href="eredmenyek.html">Eredmények</a></li>
+			<li><a href="">Tipp</a></li>
+			<li><a href="sugo.php">Súgó</a></li>
+		</ul>
+		<ul id="szamolasok">
+			<li><a href="">Pont:&nbsp;</a></li>
+			<li><a href="">Idő:&nbsp;</a></li>
+			<li><a href="">Lépés:&nbsp;</a></li>
+		</ul>
+	</div>
+	<div id="jatek">
+		<div id="felso-sor">
+			<div class="hely">
+				<div class="jeloles keveres"></div>
+			</div>
+			<div class="hely"></div>
+			<div class="hely"></div>
+			<div class="hely">
+				<div class="jeloles"></div>
+			</div>
+			<div class="hely">
+				<div class="jeloles"></div>
+			</div>
+			<div class="hely">
+				<div class="jeloles"></div>
+			</div>
+			<div class="hely">
+				<div class="jeloles"></div>
+			</div>
+		</div>
+		<div id="also-sor">
+			<div class="hely">
+				<div class="jeloles">
+					<img class="kartya" src="kartyalapok/kartyalapok/c1.png" data-index=0>
+					<img class="kartya" src="kartyalapok/kartyalapok/c2.png" data-index=1>
+				</div>
+			</div>
+			<div class="hely">
+				<div class="jeloles"></div>
+			</div>
+			<div class="hely">
+				<div class="jeloles"></div>
+			</div>
+			<div class="hely">
+				<div class="jeloles"></div>
+			</div>
+			<div class="hely">
+				<div class="jeloles"></div>
+			</div>
+			<div class="hely">
+				<div class="jeloles"></div>
+			</div>
+			<div class="hely">
+				<div class="jeloles"></div>
+			</div>
+		</div>
+	</div>
+	<div>
+		<div class="lablec">
+			<div id="vissza">
+				<img src="vissza.png">
+			</div>
+		</div>
+	</div>
+	   
+	   
+	 <div class="kepek">
+		<a class="background-image"><img src="volkswagengtiroadster.jpg" data-position="center"></a>
+         <a class="background-image"><img src=passatcc.jpg></a>
+         <a class="background-image"><img src=volkswagengolfr400.jpg></a>
+         <a class="background-image"><img src=volkswagenpassatccgold.jpg></a>
+         <a class="background-image"><img src=vwgolfgti.jpg></a>
+		 <a class="background-image"><img src=háttérkép.jpg data-position="top" data-size="100% auto"></a>
+         <a class="background-image"><img src=táj.jpg data-position="top"></a>
+         <a class="background-image"><img src=télitáj.jpg data-position="top"></a>
+	</div>
+</body>
+<script>
+
+
+	$(document).ready(function(){
+		$("#hatter").click(function(){
+			$(".kepek").css({
+				display: "block",
+				visibility: "visible"
+			})
+		});
+		$(".background-image").click(function(){
+			var img = $(this).find("img").attr("src");
+			var position = $(this).find("img").data("position");
+			var size = $(this).find("img").data("size");
+			$("body").css({
+				"background-image":"url("+img+")",
+				"background-position":position,
+				"background-size":size
+			});
+			$(".kepek").css({
+				display: "none",
+				visibility: "visibility"
+			})
+		})
+		
+	});
+</script>
+</html>

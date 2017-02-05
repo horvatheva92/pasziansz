@@ -1,0 +1,29 @@
+body
+{
+    background-position:center;
+	background-size: 1366px 1000px;
+	display: block;
+	text-decoration: none;
+	list-style: none;
+	font-family: arial,verdana,tahoma,georgia;
+	margin: 10px;
+	font-size: 19px;
+	position: fixed;
+}
+h1
+{
+	text-align:center;
+}
+h2
+{
+	text-align:center;
+}
+.justify
+{
+	text-align:justify;
+}
+pasziansz_jatek_fogalmak jpg
+{
+	width:600px;
+	height:600px;
+}
