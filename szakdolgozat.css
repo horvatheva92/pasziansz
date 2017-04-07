@@ -93,6 +93,7 @@ body
 	font-size: 19px;
 	position: fixed;
 }
+
 #bezar
 {
 	position:relative;
@@ -107,6 +108,7 @@ body
 	width:25px;
 	height:25px;
 }
+
 h1
 {
 	text-align:center;
@@ -123,16 +125,24 @@ h4
 {
 	text-align:center;
 }
+
 .justify
 {
 	text-align:justify;
 }
+
 pasziansz_jatek_fogalmak jpg
 {
-	width:500px;
-	height:500px;
-	
+	height:400px;
+	width:400px;
 }
+
+ermek png
+{
+	width:400px;
+	height:400px;	
+}
+
 .jatek 
 {
 	position: relative;
@@ -144,7 +154,7 @@ pasziansz_jatek_fogalmak jpg
 	height: 141px;
 	width: 742px;
 	padding-top: 105px;
-	padding-bottom: 5px;
+	padding-bottom: 2px;
 	margin: auto;
 }
 #also-sor 
@@ -155,6 +165,7 @@ pasziansz_jatek_fogalmak jpg
 	padding-top: 5px;
 	margin: auto;
 }
+
 .hely 
 {
 	display:inline-block;
@@ -163,6 +174,7 @@ pasziansz_jatek_fogalmak jpg
 	margin-right: 2px;
 	margin-left: 2px;
 }
+
 .jeloles
  {
 	width: 96px;
@@ -171,6 +183,7 @@ pasziansz_jatek_fogalmak jpg
 	border-radius: 3px;
 	background-color: rgba(192,192,192,0.5);
 }
+
 .jeloles.keveres 
 {
 	background-image: url('frissites.png');
@@ -200,9 +213,9 @@ pasziansz_jatek_fogalmak jpg
 	position: absolute;
 	top: 0px;
 	width: 60%;
-	height: 40%;
+	height: 60%;
 	margin: 10%;
-	z-index: 1;
+	z-index: 2;
 	padding: 5%;
 	overflow:scroll;
 }

@@ -1,0 +1,20 @@
+body
+{
+    background-position:center;
+	background-size: 1366px 1000px;
+	display: block;
+	text-decoration: none;
+	list-style: none;
+	font-family: arial,verdana,tahoma,georgia;
+	margin: 10px;
+	margin-left: 500px;
+	font-size: 50px;
+	position: fixed;
+}
+img
+{
+	width:200px;
+	height:202px;
+	display:block;
+	float:left;
+}

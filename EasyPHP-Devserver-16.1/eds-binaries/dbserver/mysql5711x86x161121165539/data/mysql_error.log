@@ -1,0 +1,48 @@
+2017-03-02T09:23:19.102511Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2017-03-02T09:23:19.102511Z 0 [Warning] 'NO_ZERO_DATE', 'NO_ZERO_IN_DATE' and 'ERROR_FOR_DIVISION_BY_ZERO' sql modes should be used with strict mode. They will be merged with strict mode in a future release.
+2017-03-02T09:23:19.102511Z 0 [Warning] 'NO_AUTO_CREATE_USER' sql mode was not set.
+2017-03-02T09:23:19.102511Z 0 [Warning] Insecure configuration for --secure-file-priv: Current value does not restrict location of generated files. Consider setting it to a valid, non-empty path.
+2017-03-02T09:23:19.106509Z 0 [ERROR] Cannot open Windows EventLog; check privileges, or start server with --log_syslog=0
+2017-03-02T09:23:19.106509Z 0 [Note] ..\eds-binaries\dbserver\mysql5711x86x161121165539\bin\eds-dbserver.exe (mysqld 5.7.11) starting as process 20692 ...
+2017-03-02T14:48:05.981044Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2017-03-02T14:48:05.981044Z 0 [Warning] 'NO_ZERO_DATE', 'NO_ZERO_IN_DATE' and 'ERROR_FOR_DIVISION_BY_ZERO' sql modes should be used with strict mode. They will be merged with strict mode in a future release.
+2017-03-02T14:48:05.981044Z 0 [Warning] 'NO_AUTO_CREATE_USER' sql mode was not set.
+2017-03-02T14:48:05.981044Z 0 [Warning] Insecure configuration for --secure-file-priv: Current value does not restrict location of generated files. Consider setting it to a valid, non-empty path.
+2017-03-02T14:48:05.996686Z 0 [ERROR] Cannot open Windows EventLog; check privileges, or start server with --log_syslog=0
+2017-03-02T14:48:05.996686Z 0 [Note] ..\eds-binaries\dbserver\mysql5711x86x161121165539\bin\eds-dbserver.exe (mysqld 5.7.11) starting as process 17068 ...
+2017-03-07T08:01:52.774340Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2017-03-07T08:01:52.774340Z 0 [Warning] 'NO_ZERO_DATE', 'NO_ZERO_IN_DATE' and 'ERROR_FOR_DIVISION_BY_ZERO' sql modes should be used with strict mode. They will be merged with strict mode in a future release.
+2017-03-07T08:01:52.774340Z 0 [Warning] 'NO_AUTO_CREATE_USER' sql mode was not set.
+2017-03-07T08:01:52.774340Z 0 [Warning] Insecure configuration for --secure-file-priv: Current value does not restrict location of generated files. Consider setting it to a valid, non-empty path.
+2017-03-07T08:01:52.774340Z 0 [ERROR] Cannot open Windows EventLog; check privileges, or start server with --log_syslog=0
+2017-03-07T08:01:52.774340Z 0 [Note] ..\eds-binaries\dbserver\mysql5711x86x161121165539\bin\eds-dbserver.exe (mysqld 5.7.11) starting as process 6100 ...
+2017-03-07T08:59:57.785268Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2017-03-07T08:59:57.785268Z 0 [Warning] 'NO_ZERO_DATE', 'NO_ZERO_IN_DATE' and 'ERROR_FOR_DIVISION_BY_ZERO' sql modes should be used with strict mode. They will be merged with strict mode in a future release.
+2017-03-07T08:59:57.785268Z 0 [Warning] 'NO_AUTO_CREATE_USER' sql mode was not set.
+2017-03-07T08:59:57.785268Z 0 [Warning] Insecure configuration for --secure-file-priv: Current value does not restrict location of generated files. Consider setting it to a valid, non-empty path.
+2017-03-07T08:59:57.789268Z 0 [ERROR] Cannot open Windows EventLog; check privileges, or start server with --log_syslog=0
+2017-03-07T08:59:57.789268Z 0 [Note] ..\eds-binaries\dbserver\mysql5711x86x161121165539\bin\eds-dbserver.exe (mysqld 5.7.11) starting as process 7100 ...
+2017-03-13T06:35:30.134951Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2017-03-13T06:35:30.134951Z 0 [Warning] 'NO_ZERO_DATE', 'NO_ZERO_IN_DATE' and 'ERROR_FOR_DIVISION_BY_ZERO' sql modes should be used with strict mode. They will be merged with strict mode in a future release.
+2017-03-13T06:35:30.134951Z 0 [Warning] 'NO_AUTO_CREATE_USER' sql mode was not set.
+2017-03-13T06:35:30.134951Z 0 [Warning] Insecure configuration for --secure-file-priv: Current value does not restrict location of generated files. Consider setting it to a valid, non-empty path.
+2017-03-13T06:35:30.134951Z 0 [ERROR] Cannot open Windows EventLog; check privileges, or start server with --log_syslog=0
+2017-03-13T06:35:30.134951Z 0 [Note] ..\eds-binaries\dbserver\mysql5711x86x161121165539\bin\eds-dbserver.exe (mysqld 5.7.11) starting as process 3844 ...
+2017-03-21T07:04:44.831830Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2017-03-21T07:04:44.831830Z 0 [Warning] 'NO_ZERO_DATE', 'NO_ZERO_IN_DATE' and 'ERROR_FOR_DIVISION_BY_ZERO' sql modes should be used with strict mode. They will be merged with strict mode in a future release.
+2017-03-21T07:04:44.831830Z 0 [Warning] 'NO_AUTO_CREATE_USER' sql mode was not set.
+2017-03-21T07:04:44.831830Z 0 [Warning] Insecure configuration for --secure-file-priv: Current value does not restrict location of generated files. Consider setting it to a valid, non-empty path.
+2017-03-21T07:04:44.843831Z 0 [ERROR] Cannot open Windows EventLog; check privileges, or start server with --log_syslog=0
+2017-03-21T07:04:44.843831Z 0 [Note] ..\eds-binaries\dbserver\mysql5711x86x161121165539\bin\eds-dbserver.exe (mysqld 5.7.11) starting as process 8332 ...
+2017-03-27T12:52:51.394243Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2017-03-27T12:52:51.394243Z 0 [Warning] 'NO_ZERO_DATE', 'NO_ZERO_IN_DATE' and 'ERROR_FOR_DIVISION_BY_ZERO' sql modes should be used with strict mode. They will be merged with strict mode in a future release.
+2017-03-27T12:52:51.394243Z 0 [Warning] 'NO_AUTO_CREATE_USER' sql mode was not set.
+2017-03-27T12:52:51.394243Z 0 [Warning] Insecure configuration for --secure-file-priv: Current value does not restrict location of generated files. Consider setting it to a valid, non-empty path.
+2017-03-27T12:52:51.394243Z 0 [ERROR] Cannot open Windows EventLog; check privileges, or start server with --log_syslog=0
+2017-03-27T12:52:51.394243Z 0 [Note] ..\eds-binaries\dbserver\mysql5711x86x161121165539\bin\eds-dbserver.exe (mysqld 5.7.11) starting as process 8344 ...
+2017-04-04T07:03:58.368890Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2017-04-04T07:03:58.368890Z 0 [Warning] 'NO_ZERO_DATE', 'NO_ZERO_IN_DATE' and 'ERROR_FOR_DIVISION_BY_ZERO' sql modes should be used with strict mode. They will be merged with strict mode in a future release.
+2017-04-04T07:03:58.368890Z 0 [Warning] 'NO_AUTO_CREATE_USER' sql mode was not set.
+2017-04-04T07:03:58.368890Z 0 [Warning] Insecure configuration for --secure-file-priv: Current value does not restrict location of generated files. Consider setting it to a valid, non-empty path.
+2017-04-04T07:03:58.372890Z 0 [ERROR] Cannot open Windows EventLog; check privileges, or start server with --log_syslog=0
+2017-04-04T07:03:58.372890Z 0 [Note] ..\eds-binaries\dbserver\mysql5711x86x161121165539\bin\eds-dbserver.exe (mysqld 5.7.11) starting as process 6724 ...

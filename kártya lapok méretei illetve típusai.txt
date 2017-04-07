@@ -1,10 +1,13 @@
 ﻿kártya lapok leosztása:
 
-a= piros szív    (kör)     A,2,3,4,5,6,7,8,9,10,J,Q,K   13db a1-a13  bátorság jelképe,harcos katona
-b= piros rombusz (káró)    A,2,3,4,5,6,7,8,9,10,J,Q,K   13db b1-b13  dárda 4szögletes vasvége,ezt zúdították az ellenségre
+h= piros szív  (kör)    A,2,3,4,5,6,7,8,9,10,J,Q,K  13db h1-h13  bátorság jelképe,harcos katona
+h1.png,h2.png,h3.png,h4.png,h5.png,h6.png,h7.png,h8.png,h9.png,h10.png,h11.png,h12.png,h13.png  
+d= piros rombusz (káró)  A,2,3,4,5,6,7,8,9,10,J,Q,K 13db d1-d13  dárda 4szögletes vasvége,ezt zúdították az ellenségre
+d1,d2,d3,d4,d5,d6,d7,d8,d9,d10,d11,d12,d13  
 c= fekete lóhere (treff)   A,2,3,4,5,6,7,8,9,10,J,Q,K   13db c1-c13  takarmányra utal
-d= fekete levél  (pikk)    A,2,3,4,5,6,7,8,9,10,J,Q,K   13db d1-d13  régi lándzsa asószerű vége
-
+c1,c2,c3,c4,c5,c6,c7,c8,c9,c10,c11,c12,c13  
+s= fekete levél  (pikk)    A,2,3,4,5,6,7,8,9,10,J,Q,K   13db s1-s13  régi lándzsa asószerű vége
+s1,s2,s3,s4,s5,s6,s7,s8,s9,s10,s11,s12,s13  
 összesen: 52db
 lapok mérete: 4*13
 zene alatta, némítása X.

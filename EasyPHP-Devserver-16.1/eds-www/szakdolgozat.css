@@ -1,0 +1,221 @@
+html,body 
+{
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	width: 100%;
+}
+body 
+{
+	background-position:center;
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+	background-color: black;
+}
+#fejlec 
+{
+	width: 100%;
+	height: 5%;
+	border-bottom-right-radius: 20px;
+	border-bottom-left-radius: 20px;
+	background-color: gray;
+	position: static;
+}
+#menu
+{
+	list-style: none;
+	padding: 0;
+	margin:0;
+}
+
+#menu li
+{
+	float: left;
+	margin: 0 25px 0 30px;
+}
+
+#menu li a
+{
+	display: block;
+	text-decoration: none;
+	list-style: none;
+	font-family: arial,verdana,tahoma,georgia;
+	margin: 2px;
+	color:white;
+}
+
+#szamolasok
+{
+	list-style: none;
+	text-decoration: none;
+}
+
+#szamolasok li
+{
+	float: right;
+	margin:0 40px 0 40px;
+}
+
+#szamolasok li a
+{
+	text-decoration: none;
+	list-style: none;
+	font-family: arial,verdana,tahoma,georgia;
+	padding:0 10px 0 0;
+	margin: 2px;
+	color:white;
+}
+
+#vissza
+{
+	position:fixed;
+	left:10px;
+	bottom: 10px;
+	border:0px;
+	margin:0px;
+	cursor: pointer;
+}
+#vissza img
+{
+	width:70px;
+	height:70px;
+}
+
+.sugo
+{
+    background-position:center;
+	background-size: 150px 150px;
+	display: block;
+	text-decoration: none;
+	list-style: none;
+	font-family: arial,verdana,tahoma,georgia;
+	margin: 10px;
+	font-size: 19px;
+	position: fixed;
+}
+#bezar
+{
+	position:relative;
+	bottom: 2px;
+	border:0px;
+	margin:0px;
+	cursor: pointer;
+	float:right;
+}
+#bezar img
+{
+	width:25px;
+	height:25px;
+}
+h1
+{
+	text-align:center;
+}
+h2
+{
+	text-align:center;
+}
+h3
+{
+	text-align:center;
+}
+h4
+{
+	text-align:center;
+}
+.justify
+{
+	text-align:justify;
+}
+pasziansz_jatek_fogalmak jpg
+{
+	width:500px;
+	height:500px;
+	
+}
+.jatek 
+{
+	position: relative;
+	width: 100%;
+	height: 500px;
+}
+#felso-sor 
+{
+	height: 141px;
+	width: 742px;
+	padding-top: 105px;
+	padding-bottom: 5px;
+	margin: auto;
+}
+#also-sor 
+{
+	height: 141px;
+	width: 742px;
+	padding-bottom: 105px;
+	padding-top: 5px;
+	margin: auto;
+}
+.hely 
+{
+	display:inline-block;
+	width: 98px;
+	height: 138px;
+	margin-right: 2px;
+	margin-left: 2px;
+}
+.jeloles
+ {
+	width: 96px;
+	height:136px;
+	border: 1px solid black;
+	border-radius: 3px;
+	background-color: rgba(192,192,192,0.5);
+}
+.jeloles.keveres 
+{
+	background-image: url('frissites.png');
+	background-size: 40px 40px;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.jeloles:hover 
+{
+	border-color: white;
+}
+.kartya 
+{
+	display: inline;
+}
+.sugo 
+{
+	display: none;
+	visibility: hidden;
+	background-color:rgba(192,192,192,15);
+}
+.kepek 
+{
+	display: none;
+	visibility: hidden;
+	background-color: rgba(192,192,192,15);
+	position: absolute;
+	top: 0px;
+	width: 60%;
+	height: 40%;
+	margin: 10%;
+	z-index: 2;
+	padding: 5%;
+	overflow:scroll;
+}
+.background-image 
+{
+	width: 200px;
+	height: 200px;
+	overflow: hidden;
+	display: inline-block;
+}
+.kepek .background-image img
+{
+	display: inline-block;
+	max-height: 200px;
+	max-width: 200px;
+}

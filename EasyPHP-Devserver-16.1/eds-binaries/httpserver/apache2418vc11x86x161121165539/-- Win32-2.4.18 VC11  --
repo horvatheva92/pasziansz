@@ -1,0 +1,8 @@
+
+
+Build with Visual Studio® 2012 (VC11) x86
+--------------------------------------------------
+- Be sure you have installed the Visual C++ Redistributable for Visual Studio 2012.
+  Download and install, if you not have it already, from:
+
+  http://www.microsoft.com/en-us/download/details.aspx?id=30679

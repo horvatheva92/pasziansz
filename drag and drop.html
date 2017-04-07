@@ -1,0 +1,75 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<style>
+#div1, #div2 {
+    float: left;
+    width: 100px;
+    height: 150px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid black;
+}
+</style>
+<script>
+function allowDrop(ev) {
+    ev.preventDefault();
+}
+
+function drag(ev) {
+    ev.dataTransfer.setData("text", ev.target.id);
+}
+
+function drop(ev) {
+    ev.preventDefault();
+    var data = ev.dataTransfer.getData("text");
+    ev.target.appendChild(document.getElementById(data));
+}
+</script>
+</head>
+<body>
+
+<h2>Drag and Drop</h2>
+<p>Drag the image back and forth between the two div elements.</p>
+
+<div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)">
+  <img src="kartyalapok/kartyalapok/c1.png" draggable="true" ondragstart="drag(event)" id="drag1" width="98" height="138">
+</div>
+<div id="div2" ondrop="drop(event)" ondragover="allowDrop(event)">
+					 <img src="kartyalapok/kartyalapok/c2.png"draggable="true" ondragstart="drag(event)" id="drag1" width="98" height="138" data-index=0>
+				</div>
+<div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+<div id="div2" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+<div id="div3" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+<div id="div4" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+<div id="div5" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+<div id="div6" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+<div id="div7" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+
+<div class="jatek">
+		<div id="felso-sor">
+			<div class="hely">
+				 <div class="keveres"></div>
+			</div>
+			<div class="hely">
+				 <div id="div2" ondrop="drop(event)" ondragover="allowDrop(event)""  class="hely"></div>
+			</div>
+			<div class="hely">
+				 <div class="jeloles"></div>
+			</div>
+			<div class="hely">
+				 <div class="jeloles"></div>
+			</div>
+			<div class="hely">
+				 <div class="jeloles"></div>
+			</div>
+			<div class="hely">
+				 <div class="jeloles"></div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
+
+
+

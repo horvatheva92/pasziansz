@@ -1,0 +1,27 @@
+body
+{
+	display: block;
+	text-decoration: none;
+	list-style: none;
+	font-family: arial,verdana,tahoma,georgia;
+	background-color: #87ADD3;
+	color:black;
+}
+div.table
+{
+	margin: 0 50px 0 50px;
+	background-position:center;
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+	width: 600px;
+	height:600px;
+}
+table, td
+{
+	border-width:10px;
+	border-style:solid;
+	border-color:yellow;
+	text-align:center;
+	position:center;
+}
+

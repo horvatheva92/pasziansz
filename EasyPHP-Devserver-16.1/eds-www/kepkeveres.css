@@ -1,0 +1,70 @@
+html,body 
+{
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	width: 100%;
+}
+body 
+{
+	background-position:center;
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+	background-color: black;
+}
+
+#felso-sor 
+{
+	height: 141px;
+    width: 742px;
+    padding-top: 105px;
+    padding-bottom: 5px;
+    margin: auto;
+	position: center;
+}
+}
+
+#also-sor 
+{
+	height: 141px;
+	width: 742px;
+	padding-bottom: 105px;
+	padding-top: 5px;
+	margin: auto;
+}
+
+.hely 
+{
+	display:inline-block;
+	width: 98px;
+	height: 138px;
+	margin-right: 2px;
+	margin-left: 2px;
+}
+
+.jeloles
+ {
+	width: 96px;
+	height:136px;
+	border: 1px solid black;
+	border-radius: 3px;
+	background-color: rgba(192,192,192,0.5);
+}
+
+.jeloles.keveres 
+{
+	background-image: url('frissites.png');
+	background-size: 40px 40px;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.jeloles:hover 
+{
+	border-color: white;
+}
+.kartya 
+{
+	display: inline;
+}
+
