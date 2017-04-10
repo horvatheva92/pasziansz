@@ -1,3 +1,0 @@
-<?php
-	$img = imagecreatefrompng('my_broken_png.png');
-?>

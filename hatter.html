@@ -20,10 +20,60 @@
 </div>
 </body>
 <script>
-$(document).ready(function(){
-	$("body").on("click",".background-image",function(){
+	$(document).ready(function(){
+		$("#hatter").click(function(){
+			$(".kepek").css({
+				display: "block",
+				visibility: "visible"
+			});
+			$(".sugo").css({
+				display: "none",
+				visibility: "hidden"
+			});
+		});
+		$("#sugo").click(function(){
+			$(".jatek").css({
+				display: "none",
+				visibility: "hidden"
+			});
+			$(".kepek").css({
+				display: "none",
+				visibility: "hidden"
+			});
+			$(".sugo").css({
+				display: "block",
+				visibility: "visible"
+			});
+		});
 		
+		$("#jatek").click(function(){
+			$(".sugo").css({
+				display: "none",
+				visibility: "hidden"
+			});
+			$(".kepek").css({
+				display: "none",
+				visibility: "hidden"
+			});
+			$(".jatek").css({
+				display: "block",
+				visibility: "visible"
+			});
+		});
+		$(".background-image").click(function(){
+			var img = $(this).find("img").attr("src");
+			var position = $(this).find("img").data("position");
+			var size = $(this).find("img").data("size");
+			$("body").css({
+				"background-image":"url("+img+")",
+				"background-position":position,
+				"background-size":size
+			});
+			$(".kepek").css({
+				display: "none",
+				visibility: "visibility"
+			});
+		})
 	});
-});
 </script>
 </html>

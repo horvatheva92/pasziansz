@@ -18,11 +18,20 @@ h2
 {
 	text-align:center;
 }
+h3
+{
+	text-align:center;
+}
 .justify
 {
 	text-align:justify;
 }
-pasziansz_jatek_fogalmak jpg
+.pasziansz_jatek_fogalmak
+{
+	width:600px;
+	height:600px;
+}
+.ermek
 {
 	width:600px;
 	height:600px;

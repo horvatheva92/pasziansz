@@ -22,4 +22,4 @@ A pasziánszjátékokban a kezdőálláshoz az összekevert csomagból leosztjuk
 
 
 görgetősáv:
-<div style="width : 300px;height : 300px;overflow : auto;">  
+<div style="width : 300px; height : 300px; overflow : auto;">  

@@ -7,11 +7,10 @@ body
 	list-style: none;
 	font-family: arial,verdana,tahoma,georgia;
 	margin: 10px;
-	margin-left: 500px;
-	font-size: 50px;
+	font-size: 19px;
 	position: fixed;
 }
-img
+.img
 {
 	width:200px;
 	height:202px;
